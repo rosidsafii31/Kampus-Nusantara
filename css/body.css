@@ -1,0 +1,213 @@
+.row{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.color{
+  background-color:rgb(235, 235, 235) ;
+}
+.desc{
+    max-width: 400px;
+}
+.img1{
+  width: 345px; height: 200px;
+  z-index: -1;
+}
+.tebel-banget {
+  font-weight: 900;
+}
+.thumbnail{
+  margin-bottom: 20px;
+  padding: 4px;
+}
+.tebel-sedang {
+  font-weight: bold;
+}
+.container1{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 74px;
+  margin-left: 130px;
+  padding-top: 30px;
+}
+.button {
+    background-color: rgb(232, 79, 136);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  .button1 {
+    background-color:rgb(64, 216, 64);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+  }
+  .button1:hover {
+    background-color:green;
+    color: white;
+
+    }
+    .button2 {
+      background-color:rgb(23, 23, 252);
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      transition: 0.3s;
+      margin-bottom: 10px;
+    }
+    .button2:hover {
+      background-color:rgb(1, 1, 185);
+      color: white;
+  }
+  .button:hover {
+    background-color: rgb(189, 73, 116);
+    color: white;
+  }
+
+.gambar{
+  display: none;
+}
+
+.img{
+  width: 603px;
+  z-index: -1;
+}
+
+.link{
+  color: gray;
+  transition: 0.3s;
+}
+
+.link:hover{
+  color: rgb(165, 160, 250);
+}
+
+@media screen and (max-width: 600px) {
+  .img{
+    display: none;
+    width: 500px;
+  }
+
+  .gambar{
+    display: block;
+  }
+  .container1{
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img1{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .thumbnail{
+    margin-bottom: auto;
+    padding: auto;
+    border-left: auto;
+    border-right: auto;
+    border-right: auto;
+    border-top:auto ;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .img{
+    display: none;
+    width: 500px;
+  }
+  .gambar{
+    display: block;
+  }
+  .container1{
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img1{
+    width: 400px;
+    display: block;
+    margin-left: auto;;
+    margin-right: auto
+    }
+  .thumbnail{
+    margin-bottom: auto;
+    padding: auto;
+    border-left: auto;
+    border-right: auto;
+    border-right: auto;
+    border-top:auto ;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .img{
+    width: 500px;
+    z-index: -1;
+  }
+  .img1{
+    width: 250px;
+    display: block;
+    margin-left: auto;;
+    margin-right: auto
+    }
+  .container1{
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .thumbnail{
+    margin-bottom: auto;
+    padding: auto;
+    border-left: auto;
+    border-right: auto;
+    border-right: auto;
+    border-top:auto ;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .img{
+    width: 300px;
+    z-index: -1;
+  }
+  .img1{
+    width: 200px;
+    display: block;
+    margin-left: auto;;
+    margin-right: auto
+    }
+  .container1{
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .thumbnail{
+    margin-bottom: auto;
+    padding: auto;
+    border-left: auto;
+    border-right: auto;
+    border-right: auto;
+    border-top:auto ;
+  }
+}
+
+
+
+
